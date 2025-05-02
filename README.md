@@ -60,9 +60,6 @@ The software and hardware used was jupyter notebook on Ubuntu OS ran on a Window
 
 Given the heat map above, it appears that no one feature is contributing larger than all others to the model. There are bright lines at veil-type since that feature seems to not contribute at all.
 
-### Future Work
-
-
 
 ## How to reproduce results
 
