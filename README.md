@@ -63,28 +63,42 @@ Given the heat map above, it appears that no one feature is contributing larger 
 
 ## How to reproduce results
 
-
+* Load the mushroom.csv file into your notebook.
+* First, check the number of rows and features so make sure the data is correct. Then check the type of the features to make sure they are all categorical. And last for the data review, check how many p vs e are in the class feature.
+* Next, you'll want to create a histogram for each feature and how the two classes measure up to eachother. To make it more clear which features are more important to the model, use the pd.Series function to lay out all of the features and their importance in one graph.
+* Check for null values by changing ?s into NaN. Then replace all NaN values with the most frequent value.
+* Encode the data so that each feature has binary responses.
+* Train the Random Forest Classification model with the new encoded data.
+* For an extra step, encode the data into numerical values and the train the Logistic and Neural Network.
+* You may also create a heat map to visualize the data.
 
 ### Overview of files in repository
 
-
+KaggleWorkbook.ipynb: The main file for the challenge. All of the code for the models and the graphs are in this file.
+mushrooms.csv: The data file for the challenge
 
 ### Software Setup
 
-
+The following packages were used:
+* pandas
+* LabelEncoder from sklearn.preprocessing
+* matplotlib.pyplot
+* RandomForestClassifier from sklearn.ensemble
+* train_test_split from sklearn.model_selection
+* seaborn
+* numpy
+* StandardScalar from sklearn.preprocessing
+* LogisticRegression from sklearn.linear_model
+* MLPClassifier from sklearn.neural_network
 
 ### Data
 
-
+The data can be downloaded from the website listed at the beginning of this document.
 
 ### Training
 
-
+To train the model, use the imported command for whichever model you would like to look at first. This could look something like this "model_rfc = RandomForestClassifier" and then "model_rfc.fit(x_train, y_train)" after you have appropriately defined x_test, x_train, y_test, and y_train.
 
 #### Performance Evaluation
 
-
-
-## Citations
-
-
+To run the performance evaluation for your model, simply use .score() to get the score for that model. An example usage would be, after training the model for RandomForestClassifier, "model_rfc.score(x_test, y_test)"
