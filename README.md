@@ -1,6 +1,6 @@
 # DATA3402FinalProject
 
-# Project Title
+# Classificaion of mushrooms: what implies poisonous?
 
 * **One Sentence Summary**:
   The goal of this challenge is to identify characteristics of mushrooms that are indicitive of whether or not it is poisonous using data from the "Mushroom Classification" data Kaggle challenge.
