@@ -4,6 +4,7 @@
 
 * **One Sentence Summary**:
   The goal of this challenge is to identify characteristics of mushrooms that are indicitive of whether or not it is poisonous using data from the "Mushroom Classification" data Kaggle challenge.
+
   https://www.kaggle.com/datasets/uciml/mushroom-classification
 
 ## Overview
