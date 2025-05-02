@@ -9,7 +9,7 @@
 
 ## Overview
 
-The task of this challence is to use observations of different mushrooms and their characteristics to determine whether or not we can predict if a mushroom is poisonous by its features alone. In the notebook, we initially trained a Random Forest Classifier model as it helps prevent overfitting, making the model more likely to be accurate. The Random Forest model returned a score of 1.0, or 100%, which then prompted two more models (Logistic Regression and Neural Network) to be trained to see if the data was overtrained in the Random Forest model. The Logistic Regression model and the Neural Network model both returned scores of 1.0 as well. This implies that the model was correct and the answer to this dataset was quite straightforward.
+The task of this challence is to use observations of different mushrooms and their characteristics to determine whether or not we can predict if a mushroom is poisonous by its features alone. In the notebook, we initially trained a Random Forest Classifier model as it helps prevent overfitting, making the model more likely to be accurate. The Random Forest model returned a score of 1.0, or 100%, which then prompted two more models (Logistic Regression and Neural Network) to be trained to see if the data was overtrained in the Random Forest model. The Logistic Regression model and the Neural Network model both returned scores of 1.0 as well. Since all models returned scores of 100%, it was possible that there was a problem with the input, but after checking the data over, it was determined that the models were accurate.
 
 ## Summary of Workdone
 
@@ -54,12 +54,11 @@ The software and hardware used was jupyter notebook on Ubuntu OS ran on a Window
 ### Performance Comparison
 
 
-![image](https://github.com/user-attachments/assets/dac8137c-d51c-4e7e-b7e5-84737623baa5)
+
 
 
 ### Conclusions
 
-Given the heat map above, it appears that no one feature is contributing larger than all others to the model. There are bright lines at veil-type since that feature seems to not contribute at all.
 
 
 ## How to reproduce results
