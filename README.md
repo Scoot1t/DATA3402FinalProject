@@ -18,7 +18,7 @@ The task of this challence is to use observations of different mushrooms and the
 ### Data
 
 * 8124 rows/observations
-* 22 features(columns)
+* 22 columns/features
 * 374 kB data set
 * 80% of observations for training, 20% for testing
 
