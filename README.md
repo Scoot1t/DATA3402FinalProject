@@ -9,7 +9,7 @@
 
 ## Overview
 
-
+The task of this challence is to use observations of different mushrooms and their characteristics to determine whether or not we can predict if a mushroom is poisonous by its features alone. In the notebook, a Random Forest Classifier model was trained initially, which resulted in a score of 1.0. Two more models (Logistic Regression and Neural Network) were then trained, both of which also resulted in scores of 1.0.
 
 ## Summary of Workdone
 
