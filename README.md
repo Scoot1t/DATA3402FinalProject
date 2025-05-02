@@ -23,7 +23,7 @@ The task of this challence is to use observations of different mushrooms and the
 
 #### Preprocessing / Clean up
 
-? symbols were replaced with NaN values so that they could be recognized by the .isnull().sum() funciton. 2480 null observations were found for the stalk-root feature. These null values were then filled with the most frequent value. The features were then all one-hot encoded so that the categorical variables would be binary. This was used for the Random Forest model. Then the data was converted into numerical values so that the Logisitic Regression and Neural Network models could be trained.
+? symbols were replaced with NaN values so that they could be recognized by the .isnull().sum() funciton. 2480 null observations were found for the stalk-root feature. These null values were then filled with the most frequent value. The features were then all one-hot encoded so that the categorical variables would be binary. This new dataset was used for the Random Forest model. Then the data was converted into numerical values so that the Logisitic Regression and Neural Network models could be trained.
 
 #### Data Visualization
 
@@ -44,19 +44,21 @@ Now, the next 2 histograms are examples of features that are not as important to
 
 ### Problem Formulation
 
-
+There were 23 features considered in the dataset, one of which is called "class" which describes if an observation is edible or poisonous. As stated before, the Random Forest Classification model was used first because of its resistance to overtraining. When a perfect 1.0 was returned, two more tests were tried (Logistic Regression and Neural Network) to verify the Random Forest model's results.
 
 ### Training
 
-
+The software and hardware used was jupyter notebook on Ubuntu OS ran on a Windows laptop.
 
 ### Performance Comparison
 
 
+![image](https://github.com/user-attachments/assets/dac8137c-d51c-4e7e-b7e5-84737623baa5)
+
 
 ### Conclusions
 
-
+Given the heat map above, it appears that no one feature is contributing larger than all others to the model. There are bright lines at veil-type since that feature seems to not contribute at all.
 
 ### Future Work
 
