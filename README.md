@@ -9,7 +9,7 @@
 
 ## Overview
 
-The task of this challence is to use observations of different mushrooms and their characteristics to determine whether or not we can predict if a mushroom is poisonous by its features alone. In the notebook, we initially trained a Random Forest Classifier model as it helps prevent overfitting, making the model more likely to be accurate. The Random Forest model returned a score of 1.0, or 100%, which then prompted two more models (Logistic Regression and Neural Network) to be trained to see if the data was overtrained in the Random Forest model. The Logistic Regression model and the Neural Network model both returned scores of 1.0 as well. While all models point to the data being perfectly represented, having a perfect 1.0 raises some alarm bells indicating overfitting of the data or something of the like.
+The task of this challence is to use observations of different mushrooms and their characteristics to determine whether or not we can predict if a mushroom is poisonous by its features alone. In the notebook, we initially trained a Random Forest Classifier model as it helps prevent overfitting, making the model more likely to be accurate. The Random Forest model returned a score of 1.0, or 100%, which then prompted two more models (Logistic Regression and Neural Network) to be trained to see if the data was overtrained in the Random Forest model. The Logistic Regression model and the Neural Network model both returned scores of 1.0 as well. This implies that the model was correct and the answer to this dataset was quite straightforward.
 
 ## Summary of Workdone
 
@@ -18,7 +18,7 @@ The task of this challence is to use observations of different mushrooms and the
 ### Data
 
 * 8124 rows/observations
-* 23 columns
+* 22 features(columns)
 * 374 kB data set
 * 80% of observations for training, 20% for testing
 
