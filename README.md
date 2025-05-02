@@ -23,11 +23,23 @@ The task of this challence is to use observations of different mushrooms and the
 
 #### Preprocessing / Clean up
 
-? symbols were replaced with NaN values so that they could be recognized by the .isnull().sum() funciton. 2480 null observations were found for the stalk-root feature. These null values were then filled with the most frequent value. The features were then all one-hot encoded so that the categorical variables would be binary.
+? symbols were replaced with NaN values so that they could be recognized by the .isnull().sum() funciton. 2480 null observations were found for the stalk-root feature. These null values were then filled with the most frequent value. The features were then all one-hot encoded so that the categorical variables would be binary. This was used for the Random Forest model. Then the data was converted into numerical values so that the Logisitic Regression and Neural Network models could be trained.
 
 #### Data Visualization
 
-![image](https://github.com/user-attachments/assets/b556ca68-cdc7-40e6-b567-3194ad2e4cc7)
+The following 3 histograms show a few features that are important to the training of the model.
+
+![image](https://github.com/user-attachments/assets/0d0be1f4-4c53-4a26-8112-bf85eb90470e)
+
+![image](https://github.com/user-attachments/assets/3385120e-d70f-4f79-b85c-aebea821c12d)
+
+![image](https://github.com/user-attachments/assets/b5f7ed79-e270-45d5-8f75-8e93ff27978a)
+
+Now, the next 2 histograms are examples of features that are not as important to the training of the model:
+
+![image](https://github.com/user-attachments/assets/43f1db04-240f-4c33-bbf1-43a104ba929b)
+
+![image](https://github.com/user-attachments/assets/397892fa-0fa9-433f-ba7e-1741b99f1cbe)
 
 
 ### Problem Formulation
