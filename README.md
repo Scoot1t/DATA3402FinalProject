@@ -23,10 +23,11 @@ The task of this challence is to use observations of different mushrooms and the
 
 #### Preprocessing / Clean up
 
-
+? symbols were replaced with NaN values so that they could be recognized by the .isnull().sum() funciton. 2480 null observations were found for the stalk-root feature. These null values were then filled with the most frequent value. The features were then all one-hot encoded so that the categorical variables would be binary.
 
 #### Data Visualization
 
+![image](https://github.com/user-attachments/assets/b556ca68-cdc7-40e6-b567-3194ad2e4cc7)
 
 
 ### Problem Formulation
