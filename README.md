@@ -1,6 +1,6 @@
 # DATA3402FinalProject
 
-# Predicting toxicity
+# Classification of mushrooms: are they poisonous?
 
 * **One Sentence Summary**:
   The goal of this challenge is to identify characteristics of mushrooms that are indicitive of whether or not it is poisonous using data from the "Mushroom Classification" data Kaggle challenge.
